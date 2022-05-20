@@ -34,4 +34,6 @@ function calcular(event){
         resultado.innerHTML = '<br/> Seu resultado foi: ' + imc.toFixed(2) + '<br/> Cuidado! Obesidade.';
     }
 
+    peso = document.getElementById('peso').value = '';
+    altura = document.getElementById('altura').value = '';
 }
